@@ -1,0 +1,3 @@
+#9C9C9C - Hover
+#E30513 - Logo / Header e outros detalhes 
+#F5F5F5 - Contraste pra n ser nem branco e nem cinza os menus
