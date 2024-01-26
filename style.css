@@ -361,4 +361,59 @@ footer {
     }
 }
 
-  
+.background-section {
+    position: relative;
+    height: 90vh;
+    background: url('biblioteca_centro\ 1.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.red-ball {
+    position: absolute;
+    left: -2%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s; /* Transição de 0.5 segundos para suavizar as mudanças de propriedades */
+}
+
+.red-ball:hover {
+    /* Quando mouse acima da bola vermelha ela cresce nessas medidas */
+    width: 550px;
+    height: 550px;
+}
+
+.text-inside-ball {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transition: opacity 0.5s; /* Transição de 0.5 segundos para suavizar as mudanças de opacidade */
+}
+
+.text-inside-ball.new-text {
+    color: white; /* Cor branca para a segunda palavra */
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o texto horizontal e verticalmente na bola */
+    width: 100%; /* Garante que o texto ocupe toda a largura da bola */
+    margin-left: 25px;
+}
+
+.red-ball:hover .text-inside-ball {
+    opacity: 0; /* Faz o texto original desaparecer durante a transição */
+}
+
+.red-ball:hover .text-inside-ball.new-text {
+    opacity: 1; /* Faz o novo texto aparecer durante a transição */
+}
