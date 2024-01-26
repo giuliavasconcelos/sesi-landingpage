@@ -372,6 +372,19 @@ footer {
      h2 {
         margin-top: 30px;
     }
+
+    .red-ball:hover {
+        /* Quando mouse acima da bola vermelha ela cresce nessas medidas */
+        width: 440px;
+        height: 440px;
+    }
+    
+
+    
+    .text-inside-ball.new-text {
+        width: 85%; /* Garante que o texto ocupe toda a largura da bola */
+
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -397,6 +410,28 @@ footer {
     #titulo {
         margin-top: 10px;
     }
+
+    .red-ball {
+        width: 100px ;
+        height: 100px ;
+
+    }
+
+    .red-ball:hover {
+        /* Quando mouse acima da bola vermelha ela cresce nessas medidas */
+        width: 370px ;
+        height: 370px ;
+    }
+    
+
+    
+    .text-inside-ball.new-text {
+        width: 85% !important;
+        margin-left: 3px !important;
+        font-size: 80% !important; /* Garante que o texto ocupe toda a largura da bola */
+
+    }
+
 }
 
 #background-section {
@@ -445,9 +480,14 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centraliza o texto horizontal e verticalmente na bola */
+<<<<<<< Updated upstream
     width: 68%; /* Garante que o texto ocupe toda a largura da bola */
     margin-top: 15px;
     margin-bottom: 25px;
+=======
+    width: 85%; /* Garante que o texto ocupe toda a largura da bola */
+    margin-left: 25px;
+>>>>>>> Stashed changes
 }
 
 .red-ball:hover .text-inside-ball {
