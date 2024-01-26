@@ -143,3 +143,75 @@ figure{
         left:0;
     }
 }
+
+/* Noticias */
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .division2 {
+    flex-basis: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+      transition: transform 0.5s;
+    
+  }
+
+  .division2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1px 6px rgba(44,44,44,0.2);
+  }
+  
+  .produtos img {
+    max-width: 40vw;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .preço {
+    color: #c33d3d;
+  }
+
+  .preço span {
+    color: black;
+    font-size: 12px;
+    text-decoration: line-through;
+  }
+  
+  .content {
+    font-weight: bold;
+  }
+
+  .content p{
+    font-size: 25px ;
+  }
+  .content h1 {
+    font-family: 'Sawarabi Gothic', sans-serif;
+  }
+
+  #container-tit {
+    max-width: 600px;
+    margin: 0 auto;
+    
+  }
+
+  .titulo {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    /* border-bottom:  3px solid #c33d3d; */
+    font-size: 50px;
+  }
+
+  .titulo2 {
+    text-align: center;
+    color: #c33d3d;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-bottom:  3px solid #c33d3d;
+  }
