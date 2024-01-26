@@ -1,0 +1,28 @@
+*{
+    position: absolute;
+}
+
+#quadrado {
+    z-index: 2;
+    display: flex;
+
+    background: red;
+    opacity: 0;
+
+    width: 100px;
+    height: 100px;
+}
+
+#circulo {
+    display: flex;
+
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#quadrado:hover:after{
+
+    opacity: 1;
+}
