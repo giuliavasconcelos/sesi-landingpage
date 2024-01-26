@@ -197,10 +197,23 @@ figure{
   #container-tit {
     max-width: 600px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
   }
+ #news {
+    font-size: 50px;
+    text-align: center;
+    color: #FF1834;
+    margin-bottom: 50px;
+    padding-right: 15px;
+    /* display: flex;
+    align-items: center; */
+  }
 
-  .titulo {
+  #titulo {
     text-align: center;
     color: black;
     margin-bottom: 50px;
@@ -215,3 +228,4 @@ figure{
     margin-top: 40px;
     border-bottom:  3px solid #c33d3d;
   }
+  
