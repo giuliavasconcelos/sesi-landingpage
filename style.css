@@ -456,3 +456,23 @@ footer {
 .red-ball:hover .text-inside-ball.new-text {
     opacity: 1; /* Faz o novo texto aparecer durante a transição */
 }
+
+
+
+.redesSociais{
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bi-facebook:hover{
+    color: #CD2840;
+}
+.bi-instagram:hover{
+    color: #CD2840;
+}
+.bi-whatsapp:hover{
+    color: #CD2840;
+}
