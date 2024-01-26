@@ -10,6 +10,7 @@
 .header {
     background-color: #E40520;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
 }
@@ -47,11 +48,13 @@
 }
 
 #header-login {
+    display: flex;
+    
     justify-content: end;
 }
 
 #header-login i {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     display: flex;
     align-items: center;
@@ -374,8 +377,8 @@ footer {
     }
 
     #header-login i  {
-       font-size: 30px;
-       margin-right: 3px;
+       font-size: 20px;
+       margin-right: 5px;
     }
 
     .content p {
