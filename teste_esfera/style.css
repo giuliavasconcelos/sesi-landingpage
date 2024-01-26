@@ -3,9 +3,12 @@
 }
 
 #quadrado {
+    z-index: 2;
     display: flex;
 
     background: red;
+    opacity: 0;
+
     width: 100px;
     height: 100px;
 }
@@ -19,7 +22,7 @@
     height: 100px;
 }
 
-#quadrado::before{
+#quadrado:hover:after{
 
-    opacity: 0;
+    opacity: 1;
 }
