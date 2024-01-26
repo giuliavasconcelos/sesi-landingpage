@@ -376,9 +376,10 @@ footer {
 }
 
 .background-section {
+    margin-top: 10px;
     position: relative;
     height: 90vh;
-    background: url('biblioteca_centro\ 1.png') center/cover no-repeat;
+    background: url('img/biblioteca_centro\ 1.png') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-start;
