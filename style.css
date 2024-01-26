@@ -272,9 +272,9 @@ footer {
     padding: 3rem 3.5rem;
 }
 
-#footer_contacts{
-    width: 10px !important;
-    height: 50px !important;
+#footer_contacts img{
+    width: 250px !important;
+    height: 100px !important;
 }
 
 
