@@ -352,6 +352,14 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+
+    .content p {
+        font-size: medium;
+     }
+
+     h2 {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -372,6 +380,10 @@ footer {
 
     .content p {
        font-size: medium;
+    }
+
+    #titulo {
+        margin-top: 10px;
     }
 }
 
