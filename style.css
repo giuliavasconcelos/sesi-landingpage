@@ -365,10 +365,13 @@ footer {
         height: 70px !important;
     }
 
-    #header-login  {
-       width: 15px;
-       height: 15px;
+    #header-login i  {
+       font-size: 30px;
        margin-right: 3px;
+    }
+
+    .content p {
+       font-size: medium;
     }
 }
 
