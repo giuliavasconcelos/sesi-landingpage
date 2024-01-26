@@ -1,0 +1,25 @@
+*{
+    position: absolute;
+}
+
+#quadrado {
+    display: flex;
+
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+#circulo {
+    display: flex;
+
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#quadrado::before{
+
+    opacity: 0;
+}
