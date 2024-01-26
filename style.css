@@ -359,6 +359,16 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
+
+    #footer_contacts img{
+        width: 200px !important;
+        height: 70px !important;
+    }
+
+    #header-login  {
+       width: 15px;
+       height: 15px;
+       margin-right: 3px;
+    }
 }
 
-  
