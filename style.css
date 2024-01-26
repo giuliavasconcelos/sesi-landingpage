@@ -414,8 +414,8 @@ footer {
     left: -2%;
     top: 50%;
     transform: translateY(-50%);
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     background-color: red;
     border-radius: 50%;
     display: flex;
@@ -426,8 +426,8 @@ footer {
 
 .red-ball:hover {
     /* Quando mouse acima da bola vermelha ela cresce nessas medidas */
-    width: 660px;
-    height: 660px;
+    width: 550px;
+    height: 550px;
 }
 
 .text-inside-ball {
@@ -445,8 +445,9 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centraliza o texto horizontal e verticalmente na bola */
-    width: 100%; /* Garante que o texto ocupe toda a largura da bola */
-    margin-left: 25px;
+    width: 68%; /* Garante que o texto ocupe toda a largura da bola */
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .red-ball:hover .text-inside-ball {
