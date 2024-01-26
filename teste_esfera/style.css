@@ -9,8 +9,8 @@
     background: red;
     opacity: 0;
 
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
 
 #circulo {
@@ -22,7 +22,32 @@
     height: 100px;
 }
 
-#quadrado:hover:after{
-
+#quadrado:hover{
     opacity: 1;
+    animation: go-back 1s;
+    
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quadrado {
+    background: red;
+    width: 50px;
+    height: 50px;
+    animation: go-back 2s;
+  }
+  
+  @keyframes go-back {
+    from {
+      transform: translateX(-100px);
+    }
+    to {
+      transform: translateX(100px);
+    }
+  } 
+  
