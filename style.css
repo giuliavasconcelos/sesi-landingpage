@@ -480,14 +480,9 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centraliza o texto horizontal e verticalmente na bola */
-<<<<<<< Updated upstream
     width: 68%; /* Garante que o texto ocupe toda a largura da bola */
     margin-top: 15px;
     margin-bottom: 25px;
-=======
-    width: 85%; /* Garante que o texto ocupe toda a largura da bola */
-    margin-left: 25px;
->>>>>>> Stashed changes
 }
 
 .red-ball:hover .text-inside-ball {
